@@ -1,0 +1,689 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.technology-car {
+  width: 100%;
+  margin: 60px 0;
+}
+.technology-title > a {
+  font-size: 36px;
+  color: #23317a;
+  font-weight: 600;
+  text-decoration: none;
+}
+.technology-title > a:hover {
+  color: #ff382e;
+}
+.technology-tabs {
+  display: flex;
+  text-align: left;
+  font-size: 14px;
+  padding-bottom: 20px;
+  margin-left: 0;
+  margin: 30px 0;
+  border-bottom: solid 1px #ebebeb;
+  list-style: none;
+}
+.technology-tab-link {
+  font-size: 16px;
+  margin-right: 20px;
+  color: #626578;
+  list-style-position: inside;
+  cursor: pointer;
+}
+.technology-car-content {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  column-gap: 30px;
+}
+.technology-tab-link > span:hover {
+  color: #ff382e;
+  border-bottom: solid 4px #ff382e;
+  padding-bottom: 18px;
+}
+.tabs_1 > span {
+  color: #ff382e;
+  border-bottom: solid 4px #ff382e;
+  padding-bottom: 18px;
+}
+.technology-card {
+}
+.technology-card > .technology-car-video {
+  width: 100%;
+  height: 270px;
+}
+.technology-card > img {
+  width: 100%;
+  height: 270px;
+}
+.technology-car-content {
+}
+.technology-card {
+}
+.technology-car-title {
+  margin: 10px 0;
+  height: 40px;
+  cursor: pointer;
+}
+.technology-car-title:hover {
+  color: #ff382e;
+}
+.technology-description {
+  font-size: 14px;
+  color: #626578;
+  margin: 10px 0;
+}
+.technology-car-author {
+  display: flex;
+  margin: 20px 0;
+}
+.author-car-avatar {
+  width: 45px;
+  height: 45px;
+}
+.info-author {
+  padding: 8px;
+}
+.author-name {
+}
+.author-date {
+  font-size: 14px;
+  color: #626578;
+  margin-top: 5px;
+}
+
+/* by Hoàng Văn Hải Css Start */
+.menu {
+  position: relative;
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.menu-ul {
+  display: flex;
+  padding: auto;
+  justify-content: space-between;
+  list-style: none;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.menu-ul-li {
+  padding: 20px;
+  padding-bottom: 40px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #23317a;
+}
+.menu-ul-li:nth-child(1) {
+  color: #ff382e;
+  border-bottom: 3px #ff382e solid;
+}
+
+.menu-ul-li:hover {
+  border-bottom: 3px #ff382e solid;
+}
+
+.menu-ul-li:hover a {
+  cursor: pointer;
+  color: #ff382e;
+}
+
+.menu-ul-li:hover {
+  color: #ff382e;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.chinhsach {
+  display: flex;
+  padding: 40px 0px;
+  color: #23317a;
+  justify-content: space-evenly;
+  font-weight: 600;
+}
+
+.chinhsach-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.search {
+  align-items: center;
+}
+
+.logo {
+  height: 55px;
+  width: 200px;
+  margin: auto 0;
+  padding: 0 20px;
+}
+
+.search {
+  display: flex;
+  margin: auto 0;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.chinhsach-title {
+  padding: 10px;
+  border: 5;
+}
+
+.mid-footer {
+  display: flex;
+  margin: 60px 0;
+  justify-content: space-between;
+}
+
+.late-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+
+.icon-msg {
+  width: 20px;
+  height: 20px;
+  background: #ebebeb;
+}
+
+.user {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.search {
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.actor {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+}
+
+.auther {
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  color: #23317a;
+  font-weight: 600;
+  z-index: 5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.auther > li {
+  list-style: none;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ebebeb;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.auther > li:hover{
+  color: #ff382e;
+}
+
+.user:hover .auther {
+  display: block;
+}
+
+.litel-rowli {
+  border-bottom: 3px solid #ff382e;
+  width: 40px;
+  position: absolute;
+  top: 26px;
+}
+
+.litel-row {
+  font-weight: 600;
+  border-bottom: 2px solid #ebebeb;
+  padding-bottom: 8px;
+  position: relative;
+  font-size: 18px;
+  color: #23317a;
+}
+
+.litel-rowla {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #626578;
+  line-height: 1.5;
+}
+
+.list-menu {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #626578;
+  line-height: 1.5;
+}
+
+.ul-email {
+  font-weight: 600;
+  padding-bottom: 8px;
+  position: relative;
+  color: #23317a;
+}
+
+.follow {
+  font-weight: 600;
+  padding-bottom: 8px;
+  position: relative;
+  color: #23317a;
+}
+
+.ref-link-fb {
+  text-decoration: none;
+}
+
+.msg {
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+.ul-email-a {
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #626578;
+}
+
+.text-box {
+  height: 50px;
+  width: 300px;
+  padding-left: 20px;
+}
+
+.input-email {
+  display: block;
+}
+
+.post-email {
+  height: 50px;
+  width: 300px;
+  background-color: #23317a;
+  color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.post-email > img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.phone,
+.support {
+  display: flex;
+  margin: 10px 0;
+}
+.telephone,
+.info-email {
+  color: #626578;
+  padding-left: 5px;
+}
+
+.headphone {
+  height: 15px;
+  width: 15px;
+}
+
+.mail-li {
+  height: 15px;
+  width: 15px;
+}
+
+.litel-hot-line {
+  font-weight: 600;
+  padding-bottom: 8px;
+  position: relative;
+  color: #23317a;
+}
+
+.chinhsach-item {
+  cursor: pointer;
+  color: #23317a;
+}
+
+.chinhsach-item:hover {
+  color: #ff382e;
+}
+
+.menu-ul > li {
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-ul > li:hover > .sub-menu {
+  display: block;
+}
+
+.sub-menu {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid #ebebeb;
+  list-style: none;
+  position: absolute;
+  display: none;
+  top: 105%;
+  color: #23317a;
+  z-index: 5;
+  background: #fff;
+}
+.sub-menu > li {
+  border: 1px solid #ebebeb;
+  width: 140px;
+  padding: 10px;
+}
+
+.sub-menu > li:hover {
+  color: #ff382e;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.end-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  color: #626578;
+}
+
+/* by Hoàng Văn Hải Css End */
+
+/* by Nguyễn Văn Đạo Css Start */
+.car-section {
+  width: 100%;
+}
+
+/* Begin Car type */
+.car-type {
+  width: 100%;
+  padding: 0 0 60px;
+  border-bottom: solid 1px #ebebeb;
+}
+
+.car-container {
+  width: 1170px;
+}
+
+/* Begin title */
+.car-container .car-title {
+  font-size: 36px;
+  margin: 10px 0;
+  font-weight: 600;
+  color: #23317a;
+}
+/* End title */
+
+/* Begin Content */
+/* Begin Car-menu */
+.car-content {
+  margin-top: 5px;
+}
+
+.car-menu .menu-list {
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  background: transparent;
+  list-style-type: none;
+  border-bottom: solid 1px #ebebeb;
+}
+
+.menu-list .menu-item {
+  display: inline;
+  margin-right: 15px;
+  padding: 20px 0;
+  line-height: 40px;
+  position: relative;
+  color: #626578;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu-list > .menu-item:nth-child(2) {
+  color: #ff382e;
+  border-bottom: 3px #ff382e solid;
+}
+
+.menu-list > .menu-item:hover {
+  border-bottom: 3px #ff382e solid;
+}
+
+.menu-list > .menu-item:hover a {
+  cursor: pointer;
+  color: #ff382e;
+}
+
+.menu-list a {
+  padding: 21px 0;
+  color: #626578;
+  text-decoration: none;
+  background: transparent;
+}
+
+.menu-list > .menu-item:nth-child(2) > a {
+  color: #ff382e;
+}
+/* End Car-menu */
+
+/* Begin Car-list */
+.cart-list .car-list-type {
+  display: flex;
+}
+
+.car-list-type .car-list-item {
+  flex: 1;
+  width: calc(100% / 4);
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.car-list-item img {
+  width: 100%;
+}
+
+.car-list-item .product-info {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #fff;
+  text-align: left;
+}
+
+.product-info .product-name {
+  margin-bottom: 5px;
+}
+
+.product-info .product-name:hover a {
+  color: #ff382e;
+}
+
+.product-info .product-name a {
+  color: #626578;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 5px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.product-descript p {
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.product-descript ul {
+  width: 100%;
+  padding-left: 15px;
+}
+
+.product-descript li {
+  list-style: disc;
+  font-size: 14px;
+  line-height: 22px;
+  color: #626578;
+}
+/* End Car list */
+/* End Car type */
+
+/* Begin Car Service List */
+.car-container {
+  padding: 30px 0;
+}
+
+.car-container > .car-service_list {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.car-service_list .car-service_item {
+  --column: 4;
+
+  width: calc(100% / 4);
+  padding: 0 15px;
+}
+
+.car-service_item .car-service_icon {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.car-service_icon .car-service-icon_left {
+  width: 50px;
+}
+
+.car-service-icon_left > img {
+  font-size: 14px;
+}
+
+.car-service-icon_left .img-1 {
+}
+
+.car-service-icon_left .img-2 {
+  display: none;
+}
+
+.car-service_icon:hover .img-1 {
+  display: none;
+}
+
+.car-service_icon:hover .img-2 {
+  display: block;
+}
+
+.car-service_icon .car-service-icon_right {
+  padding-left: 15px;
+  line-height: 62.75px;
+}
+
+.car-service_icon .car-service-icon_right h4 {
+  font-weight: 700;
+  color: #23317a;
+  font-size: 16px;
+}
+
+.car-service_item p {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  color: #626578;
+  line-height: 27px;
+}
+/* by Nguyễn Văn Đạo Css End */
+
+/* by Nguyễn Văn Linh Css Start */
+.section_brand {
+  width: 100%;
+  height: 100%;
+  border-top: solid 1px #ebebeb;
+}
+.wrap_brand {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: solid 1px #ebebeb;
+}
+/* by Nguyễn Văn Linh Css End */
+
+/* by Trần Văn Thọ Css Start */
+.des_sync_logo {
+  display: flex;
+  border-top: solid 1px #ebebeb;
+  padding: 50px 0;
+}
+.des_sync_logo > img {
+  width: 60%;
+}
+.exchange-me {
+  margin-left: 20px;
+}
+.exchange-me-title {
+  color: #23317a;
+  font-weight: 700;
+  font-size: 30px;
+}
+.des_sync {
+  font-size: 16px;
+  margin: 30px 0;
+  color: #626578;
+  line-height: 1.25;
+}
+.btn_main {
+  text-decoration: none;
+  display: inline;
+  float: left;
+  padding: 0 20px;
+  height: 50px;
+  line-height: 50px;
+  background: #3c52c7;
+  color: #fff;
+  text-align: center;
+}
+.btn_main:hover {
+  background: #ff382e;
+}
+/* by Trần văn Thọ Css End */
+
+
