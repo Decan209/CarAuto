@@ -212,7 +212,13 @@
   background: #ebebeb;
 }
 
-.user {
+.user{
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.user-img {
   height: 30px;
   width: 30px;
   cursor: pointer;
